@@ -176,7 +176,7 @@ Go to [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 👥 Authors
 
-- [@aruppatra04](https://github.com/aruppatra04)
+- [Arup Patra](https://github.com/aruppatra04)
 
 ---
 
