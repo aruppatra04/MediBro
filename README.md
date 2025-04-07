@@ -102,31 +102,29 @@ project-root/
 
 ## 🛠️ Installation & Usage
 
-### 1. Clone the repository
+### 1. Fork the repository
+Fork the repository to your GitHub account by clicking the **"Fork"** button at the top right of the [original repo](https://github.com/aruppatra04/MedBro-Minor).
+
+### 2. Clone the repository
 ```bash
-git clone https://github.com/aruppatra04/MedBro-Minor.git
+git clone https://github.com/YOUR-USERNAME/MedBro-Minor.git
 cd MedBro-Minor
 ```
-
-### 2. Install frontend dependencies
+### 3. Install frontend dependencies
 ```bash
 npm install
 ```
-
-### 3. Run the frontend (Next.js)
+### 4. Run the frontend (Next.js)
 ```bash
 npm run dev
 ```
-
-### 4. Set up backend
+### 5. Set up backend
 In a separate terminal:
-
 ```bash
 cd backend
 npm install
 node server.js
 ```
-
 > Make sure your Python model is already trained and exported to `model.joblib`.
 
 ### 5. Access the app
