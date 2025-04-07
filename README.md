@@ -103,7 +103,7 @@ project-root/
 ## 🛠️ Installation & Usage
 
 ### 1. Fork the repository
-Fork the repository to your GitHub account by clicking the **"Fork"** button at the top right of the [original repo](https://github.com/aruppatra04/MedBro-Minor).
+Fork the repository to your GitHub account by clicking the **"Fork"** button at the top right of the [original repo](https://github.com/aruppatra04/MediBro).
 
 ### 2. Clone the repository
 ```bash
