@@ -173,13 +173,3 @@ Go to [http://localhost:3000](http://localhost:3000) in your browser.
 - It should not be considered a substitute for real medical consultation.
 
 ---
-
-## 👥 Authors
-
-- [Arup Patra](https://github.com/aruppatra04)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
