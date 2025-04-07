@@ -32,21 +32,70 @@
 ## 📁 Project Structure
 
 ```
-MedBro-Minor/
-├── backend/                 # Express.js backend with ML API integration
-│   ├── routes/              # API route for disease prediction
-│   └── server.js            # Server entry point
-├── public/                  # Static files for the frontend
-├── src/                     # Frontend source code (Next.js)
-│   ├── components/          # Reusable UI components
-│   ├── pages/               # Next.js pages (Home, Result, etc.)
-│   └── app/                 # App-level layout and config
-├── disease_model.ipynb      # Jupyter notebook for training ML model
-├── model.joblib             # Saved ML model
-├── dataset.csv              # Symptoms to disease dataset
-├── package.json             # Frontend dependencies
-├── tsconfig.json            # TypeScript config
-└── README.md
+project-root/
+├── backend/                             # Backend logic for disease prediction and recommendations
+│   ├── datasets/                        # Contains all CSV datasets used for prediction and recommendations
+│   │   ├── description.csv              # Description of diseases
+│   │   ├── diets.csv                    # Recommended diets per disease
+│   │   ├── medications.csv              # Medications per disease
+│   │   ├── precautions.csv              # Precautions for each disease
+│   │   ├── symtoms.csv                  # List of symptoms
+│   │   ├── training.csv                 # Training data for the ML model
+│   │   └── workout.csv                  # Workout recommendations per disease
+│   ├── model/
+│   │   └── xgb_regressor.pkl            # Trained XGBoost model for disease prediction
+│   ├── .gitignore                       # Git ignore rules for backend
+│   ├── diseaseInfo.py                  # Returns detailed disease info based on prediction
+│   ├── disease_prediction.ipynb        # Jupyter Notebook for model development and training
+│   ├── package-lock.json               # Auto-generated for locking dependencies
+│   ├── package.json                    # Backend dependencies and scripts
+│   ├── recomended.py                   # Returns diet, medication, workout, precautions for a disease
+│   └── server.js                       # Express.js server handling API requests
+│
+├── public/                             # Public assets like images and icons for frontend
+│   ├── 24.avif                          # Various images used in the frontend UI
+│   ├── favicon-32x32.png                # Favicon for the website
+│   ├── favicon.ico                      # Favicon
+│   ├── img1.avif                        # General UI image
+│   ├── img2.jpg                         # General UI image
+│   ├── img3.jpg                         # General UI image
+│   ├── img4.jpg                         # General UI image
+│   ├── logo.jpg                         # Logo image
+│   ├── logo2.png                        # Alternate logo
+│   ├── logo5.png                        # Alternate logo
+│   ├── logonew1.png                     # Final/updated logo
+│   ├── meds rec.jpg                     # Image representing medical recommendations
+│   ├── sec.jpeg                         # Security-related image
+│   ├── symp.jpg                         # Symptoms-related illustration
+│   ├── trust.png                        # Trust-related icon
+│   └── user frie.png                    # User-friendly design image
+│
+├── src/                                # Frontend (Next.js) source files
+│   ├── app/                             # App routing and pages
+│   │   ├── about/
+│   │   │   └── page.tsx                # About page component
+│   │   ├── contact/
+│   │   │   └── page.tsx                # Contact page component
+│   │   ├── workplace/
+│   │   │   └── page.tsx                # Workplace-related page
+│   │   ├── NavBar.tsx                  # Navigation bar component
+│   │   ├── globals.css                 # Global styles
+│   │   ├── layout.tsx                  # Layout file wrapping all pages
+│   │   ├── not-found.tsx               # Custom 404 error page
+│   │   └── page.tsx                    # Main (home) page
+│   ├── lib/
+│   │   └── utils.ts                    # Utility functions used across frontend
+│
+├── .gitignore                          # Ignore rules for the entire project
+├── README.md                           # Project documentation
+├── components.json                     # UI components configuration
+├── eslint.config.mjs                   # ESLint config for code linting
+├── next.config.ts                      # Next.js configuration
+├── package-lock.json                   # Lock file for frontend dependencies
+├── package.json                        # Frontend project dependencies
+├── postcss.config.mjs                  # PostCSS configuration for styling
+└── tsconfig.json                       # TypeScript configuration
+
 ```
 
 ---
