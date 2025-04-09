@@ -1,6 +1,6 @@
-# 🧠 MedBro - Disease Prediction & Recommendation Web App
+# 🧠 MediBro - Disease Prediction & Recommendation Web App
 
-**MedBro** is a full-stack Machine Learning-powered web application that predicts diseases based on symptoms entered by the user and provides medically relevant recommendations including medications, workouts, precautions, and diets.
+**MediBro** is a full-stack Machine Learning-powered web application that predicts diseases based on symptoms entered by the user and provides medically relevant recommendations including medications, workouts, precautions, and diets.
 
 ---
 
